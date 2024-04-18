@@ -1,0 +1,24 @@
+body {
+  font-family: Poppins;
+  background: #f1f5f9;
+}
+
+.container {
+  background: #fff;
+}
+
+/* h3 {
+  color: #645cff;
+} */
+
+div h3 {
+  color: #645cff;
+}
+
+p {
+  color: #6474ab;
+}
+
+.special-container {
+  background: rgba(0, 0, 0, 0.9);
+}
