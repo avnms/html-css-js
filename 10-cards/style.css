@@ -63,6 +63,19 @@ h3 {
   box-shadow: var(--shadow-dark);
 }
 
-img {
+.blog-img {
+  border-radius: var(--border-radius);
+  margin-bottom: 0.5rem;
+}
+
+/* img {
   width: 100%;
+  display: block;
+  object-fit: cover;
+} */
+
+.img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
 }
