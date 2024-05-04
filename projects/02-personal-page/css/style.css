@@ -19,3 +19,34 @@ a {
   cursor: pointer;
   text-decoration: none;
 }
+
+.wallpaper {
+  display: block;
+  height: 100%;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.wallpaper {
+  background-image: url("../images/wallpaper.jpg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.2;
+  position: fixed;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+}
+
+.side {
+  max-height: 20rem;
+  max-width: 20rem;
+}
+
+.about {
+  max-width: 26rem;
+}
