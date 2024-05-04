@@ -21,6 +21,29 @@
   --transition: 0.3s ease-in-out all;
 }
 
+body {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
+
+.blogs {
+  padding: 5rem 0;
+}
+
+.section-title {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: var(--letter-spacing);
+  margin-bottom: 2rem;
+}
+
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
 img {
   width: 100%;
 }
